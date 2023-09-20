@@ -1,0 +1,26 @@
+3. Implemente un programa que lea dos números reales e imprima el resultado de la división de
+los mismos con una precisión de dos decimales. Por ejemplo, si se ingresan los valores 4,5 y 7,2,
+debe imprimir: El resultado de dividir 4,5 por 7,2 es 0,62
+
+Recuerde que para imprimir en pantalla números reales puede utilizar la notación:
+writeln(X:Y:Z) donde X es el número a imprimir, Y es el ancho (en cantidad de caracteres) que
+debe ocupar la impresión, y Z es la cantidad de decimales. Por ejemplo, sea el número
+pi=3.141592654 :
+3.14 => writeln(pi,1,2);
+3.14 => writeln(pi,8,2); (hay 4 espacios delante del 3, para completar 8 caracteres de ancho)
+3,1415 => writeln(pi,1,4);
+
+program ejer3;
+var
+ num1, num2, divisor: real;
+begin
+ 
+ writeln (' ingrese 2 numeros ');
+ readln (num1); readln (num2);
+ divisor:= num1/num2;
+ 
+ writeln ('el resultado de dividir esos 2 numeros es ', divisor:5:1);
+ 
+
+end.
+ 
