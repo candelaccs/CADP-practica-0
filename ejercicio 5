@@ -25,3 +25,5 @@ begin
  writeln (' el kiosquero debera cobrar: ', result*precio:4:2);
  
 end.
+
+// si tengo que hacer una operacion con una variable real y una entera, se puede pero el resultado se debe almacenar en una variable real //
