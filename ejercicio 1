@@ -1,0 +1,18 @@
+1. Implemente un programa que lea por teclado dos números enteros e imprima en pantalla los
+valores leídos en orden inverso. Por ejemplo, si se ingresan los números 4 y 8, debe mostrar el
+mensaje: Se ingresaron los valores 8 y 4
+
+program ejer1;
+var
+ num1, num2: integer;
+begin
+ 
+ writeln ('ingrese primer numero');
+ readln (num2);
+ writeln ('ingrese el segundo numero');
+ readln (num1);
+ 
+ writeln ('los numeros ingresados fueron ', num1, ' y ' , num2);
+ 
+end.
+ 
