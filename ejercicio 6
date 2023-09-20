@@ -6,3 +6,21 @@ banco cobra un 4% de comisión, entonces el programa deberá informar:
 La transacción será de 1968,93 pesos argentinos
 (resultado de multiplicar 10*189,32 y adicionarle el 4%)
 
+program ejer6;
+
+
+var
+ dolares, valor, porcentaje, comision, total: real;
+begin
+ 
+ writeln ('ingrese la cantidad de dolares'); readln (dolares);
+ writeln ('ingrese el valor actual en pesos '); readln (valor);
+ writeln ('ingrese el porcentaje de comision '); readln (porcentaje);
+ 
+ total:= dolares*valor;
+ comision:= porcentaje*total/100;
+ 
+ writeln ('el total de la transaccion es ', total + comision:4:2);
+ 
+ 
+end.
